@@ -1,0 +1,27 @@
+{
+  "name": "quote_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikEAllEn338/Quote_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikEAllEn338/Quote_bot/issues"
+  },
+  "homepage": "https://github.com/MikEAllEn338/Quote_bot#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-telegram-bot-api": "^0.58.0"
+  }
+}
